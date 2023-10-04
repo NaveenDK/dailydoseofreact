@@ -1,13 +1,18 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import Superhero from "./exercises/Superhero";
+import Trivia from "./exercises/Trivia";
+import Cookie from "./exercises/Cookie";
+import Lists from "./exercises/Lists";
+import SimposonsQuotes from "./exercises/Lists";
+import reportWebVitals from "./reportWebVitals";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <SimposonsQuotes />
   </React.StrictMode>
 );
 
