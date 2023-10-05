@@ -12,7 +12,14 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
-
+.card-custom
+{
+  display: flex;
+  width: 100%;
+  max-width: 60%;
+  margin: 0 auto;
+  justify-content: center;
+}
 .App-header {
   background-color: #282c34;
   min-height: 100vh;

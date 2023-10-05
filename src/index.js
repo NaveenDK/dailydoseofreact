@@ -1,3 +1,4 @@
+import "bootstrap/dist/css/bootstrap.css";
 import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
@@ -6,7 +7,7 @@ import Superhero from "./exercises/Superhero";
 import Trivia from "./exercises/Trivia";
 import Cookie from "./exercises/Cookie";
 import Lists from "./exercises/Lists";
-import SimposonsQuotes from "./exercises/Lists";
+import SimposonsQuotes from "./exercises/SimpsonsQuotes";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
