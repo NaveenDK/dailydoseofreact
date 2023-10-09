@@ -7,13 +7,14 @@ import Superhero from "./exercises/Superhero";
 import Trivia from "./exercises/Trivia";
 import Cookie from "./exercises/Cookie";
 import Lists from "./exercises/Lists";
+import RecipeList from "./exercises/RecipeList";
 import SimposonsQuotes from "./exercises/SimpsonsQuotes";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <SimposonsQuotes />
+    <RecipeList />
   </React.StrictMode>
 );
 
