@@ -8,13 +8,15 @@ import Trivia from "./exercises/Trivia";
 import Cookie from "./exercises/Cookie";
 import Lists from "./exercises/Lists";
 import RecipeList from "./exercises/RecipeList";
+import Website from "./exercises/Website";
 import SimposonsQuotes from "./exercises/SimpsonsQuotes";
 import reportWebVitals from "./reportWebVitals";
+import VPiano from "./exercises/VPiano";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <RecipeList />
+    <VPiano />
   </React.StrictMode>
 );
 

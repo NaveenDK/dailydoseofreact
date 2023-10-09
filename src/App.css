@@ -1,6 +1,9 @@
 .App {
   text-align: center;
 }
+.pressed{
+  background:grey!important;
+}
 
 .App-logo {
   height: 40vmin;
